@@ -39,5 +39,3 @@ for item in values:
         
     else:
         print(f'{num}번 수는 {item}입니다.')
-
-#ㄸ아니시발 왜안돼는데

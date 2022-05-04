@@ -20,3 +20,19 @@ print(a+b)
     #변수1, 변수2= input().split('기준문자열')
     #변수1, 변수2 = input('문자열').split()
     #변수1, 변수2=input('문자열').split('기준문자열')
+    
+a,b = input ('문자열 두 개를 입력하세요: ').split() # 입력받은 값을 공백을 기준으로 본다
+
+print(a)
+print(b)
+
+#두 숫자의 합 구하기
+a,b = input('숫자 두 개를 입력하세요: ').split() #입력받은 값을 공백을 기준으로 분리
+print(a+b)
+
+#입력값을 정수로 변환하기
+a,b =input('숫자 두 개를 입력하세요: ').split()
+a=int(a)
+b=int(b)
+
+print(a+b)
